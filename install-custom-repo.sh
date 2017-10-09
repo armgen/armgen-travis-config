@@ -1,2 +1,2 @@
 #!/bin/bash
-cp .travis.settings.xml $HOME/.m2/settings.xml
+cp armgen-travis-config/.travis.settings.xml $HOME/.m2/settings.xml
