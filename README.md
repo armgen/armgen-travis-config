@@ -8,8 +8,8 @@ Para configurar o projeto para utilizar a conf:
 
 Para adicionar as chaves de segurança:
 
-	travis encrypt REPO_SERVER_USER=admin --add env.global
-	travis encrypt REPO_SERVER_PASSWORD=@amz.ARM --add env.global
+	travis encrypt REPO_SERVER_USER=deployment --add env.global
+	travis encrypt REPO_SERVER_PASSWORD=amz-ARM$1 --add env.global
 
 Exemplo do .travis.yml
 
