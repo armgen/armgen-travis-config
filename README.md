@@ -8,5 +8,5 @@ Para configurar o projeto para utilizar a conf:
 
 Para adicionar as chaves de segurança:
 
-	travis encrypt CI_DEPLOY_USERNAME=admin --add env.global
-	travis encrypt CI_DEPLOY_PASSWORD=@amz.ARM --add env.global
+	travis encrypt REPO_SERVER_PASSWORD=admin --add env.global
+	travis encrypt REPO_SERVER_USER=@amz.ARM --add env.global
