@@ -3,7 +3,7 @@
     <server>
       <id>armgen-repo</id>
       <username>deployment</username>
-      <password>${env.CI_DEPLOY_PASSWORD}</password>
+      <password>${env.REPO_SERVER_PASSWORD}</password>
     </server>
   </servers>
 </settings>
