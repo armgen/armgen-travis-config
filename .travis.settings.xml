@@ -10,7 +10,7 @@
       <servers>
             <server>
                   <id>armgen-repo</id>
-                  <username>deployment</username>
+                  <username>${env.REPO_SERVER_USER}</username>
                   <password>${env.REPO_SERVER_PASSWORD}</password>
             </server>
       </servers>
